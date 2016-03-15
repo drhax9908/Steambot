@@ -1,0 +1,42 @@
+﻿<Window x:Name="WindowInterface" x:Class="SteamBotInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="424" Width="663" Icon="assets/icon.png" Closed="WindowInterface_Closed">
+    <Window.Background>
+        <ImageBrush ImageSource="assets/background.png"/>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblBotName" Content="Loading bot..." HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="10,10,0,0" VerticalAlignment="Top" Width="497" FontSize="36" FontStyle="Italic" Foreground="White"/>
+        <Label Content="Status :" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="85" Foreground="White"/>
+        <Label x:Name="lblStatus" Content="" HorizontalAlignment="Left" Margin="110,68,0,0" VerticalAlignment="Top" Width="253" Foreground="White"/>
+        <Label Content="Admins :" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Width="85" Foreground="White"/>
+        <Label x:Name="lblAdmins" Content="" HorizontalAlignment="Left" Margin="110,99,0,0" VerticalAlignment="Top" Width="253" Foreground="White"/>
+        <Label Content="API Key" HorizontalAlignment="Left" Margin="380,361,0,0" VerticalAlignment="Top" Width="53" FontSize="10"/>
+        <Label x:Name="lblApiKey" Content="" HorizontalAlignment="Left" Margin="433,361,0,0" VerticalAlignment="Top" Width="212" FontStyle="Italic" FontSize="10"/>
+        <Label Content="Main log file" HorizontalAlignment="Left" Margin="15,361,0,0" VerticalAlignment="Top" Width="85" FontSize="10"/>
+        <Label x:Name="lblLogFile" Content="" HorizontalAlignment="Left" Margin="110,130,0,0" VerticalAlignment="Top" Width="253" Foreground="White"/>
+        <Label x:Name="lblControlClass" Content="" HorizontalAlignment="Left" Margin="110,160,0,0" VerticalAlignment="Top" Width="291" Foreground="White"/>
+        <Label Content="Control class :" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Width="85" Foreground="White"/>
+        <Label x:Name="lblMainLogFile" Content="" HorizontalAlignment="Left" Margin="110,361,0,0" VerticalAlignment="Top" Width="253" FontSize="10"/>
+        <Label Content="Log file :" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.5,0.5" Foreground="White">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.434"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="btnPreviousBot" Content="Previous bot" HorizontalAlignment="Left" Margin="15,310,0,0" VerticalAlignment="Top" Width="85" Height="24" Click="btnPreviousBot_Click" IsEnabled="False"/>
+        <Button x:Name="btnNextBot" Content="Next bot" HorizontalAlignment="Left" Margin="546,310,0,0" VerticalAlignment="Top" Width="85" Height="24" Click="btnNextBot_Click" IsEnabled="False"/>
+        <Label Content="SteamGuard :" HorizontalAlignment="Left" Margin="10,186,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
+        <Label x:Name="lblRequireSteamGaurd" Content="" HorizontalAlignment="Left" Margin="110,186,0,0" VerticalAlignment="Top" Width="253" Foreground="White"/>
+        <Label Content="Database :" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
+        <Label x:Name="lblDatabaseName" Content="" HorizontalAlignment="Left" Margin="110,217,0,0" VerticalAlignment="Top" Width="253" Foreground="White"/>
+
+    </Grid>
+</Window>
