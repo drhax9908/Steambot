@@ -1,0 +1,33 @@
+{
+"Admins": ["234567"],
+"MySteamID": "ADMIN_STEAM_ACCOUNT",
+"ApiKey": "STEAM_API_KEY",
+"ApiKeyBackPack": "Backpack.tf API KEY you can get 1 here https://backpack.tf/api/register",
+"mainLog": "syslog.log",
+"UseSeparateProcesses": "false",
+"AutoStartAllBots": "true",
+"DatabaseHost": "DATABASE HOST EXEMPLE : MYHOST.COM",
+"DatabaseUserName": "DATABASE USERNAME",
+"DatabasePassword": "DATABASE USERNAME'S PASSWORD",
+"DatabaseName": "DATABASE NAME (no need to create it)",
+"Bots": [
+        {
+            "Username": "BOT USERNAME",
+            "Password": "BOT PASSWORD",
+            "ApiKey": "STEAM_API_KEY",
+			"BotGameUsage": "BOT GAME USAGE (730=CS:GO, 440=TF2)",
+            "DisplayName": "BOT DISPLAY NAME",
+            "logFile": "bot1.log",
+            "BotControlClass": "SteamBot.ArkarrUserHandler",
+            "MaximumTradeTime": 180,
+            "MaximumActionGap": 100,
+            "DisplayNamePrefix": "BOT PREFIX [EXEMPLE]",
+            "TradePollingInterval": 800,
+            "ConsoleLogLevel": "Success",
+            "FileLogLevel": "Info",
+            "AutoStart": "true",
+            "SchemaLang":"en",
+	    "TCPPassword": "YOUR TCP PASSWORD Can be what you want, for exemple 'eiogfhz974458', not need to remember, also KEEP PRIVATE"
+        }
+    ]
+}
