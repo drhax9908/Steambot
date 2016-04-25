@@ -9,6 +9,7 @@
 "DatabaseHost": "DATABASE HOST EXEMPLE : MYHOST.COM",
 "DatabaseUserName": "DATABASE USERNAME",
 "DatabasePassword": "DATABASE USERNAME'S PASSWORD",
+"DatabasePort":"1433 by default",
 "DatabaseName": "DATABASE NAME (no need to create it)",
 "Bots": [
         {
