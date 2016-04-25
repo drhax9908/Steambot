@@ -109,7 +109,6 @@ namespace SteamBotInterface
             manager.StopBots();
             console.Interrupt();
             console.Abort();
-            Console.WriteLine("test");
         }
 
         private void btnPreviousBot_Click(object sender, RoutedEventArgs e)

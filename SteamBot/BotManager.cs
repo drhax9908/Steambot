@@ -98,7 +98,7 @@ namespace SteamBot
                 canQuery = DB.QUERY(database);
 
                 DB.connection.Close();
-                DB = new Database(ConfigObject.DatabaseHost, ConfigObject.DatabaseUserName, ConfigObject.DatabasePassword, ConfigObject.DatabaseName);
+                DB = new Database(ConfigObject.DatabaseHost, ConfigObject.DatabaseUserName, ConfigObject.DatabasePassword, ConfigObject.DatabasePort, ConfigObject.DatabaseName);
 
                 string table1 = "CREATE TABLE IF NOT EXISTS `tradeoffers` (" +
                                 "`ID` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY," +

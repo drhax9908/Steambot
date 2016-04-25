@@ -15,6 +15,9 @@
 # bld/
 # [Bb]in/
 # [Oo]bj/
+!build/
+![Bb]in
+![Bb]in/
 
 # Roslyn cache directories
 *.ide/

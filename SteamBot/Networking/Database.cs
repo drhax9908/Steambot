@@ -21,13 +21,13 @@ namespace ExempleBot
             }
         }
 
-        public Database(string server, string username, string password, string database = "")
+        public Database(string server, string username, string password, string port = "1433", string database = "")
         {
             string connetionString = null;
             if(database.Length > 0)
-                connetionString = "Server=" + server + ";Database=" + database + ";Uid=" + username + ";Pwd=" + password;
+                connetionString = "Server=" + server + ";"+"Port="+ port +";Database=" + database + ";Uid=" + username + ";Pwd=" + password;
             else
-                connetionString = "Server=" + server + ";Uid=" + username + ";Pwd=" + password;
+                connetionString = "Server=" + server + "Port=" + port + ";Uid=" + username + ";Pwd=" + password;
 
             try
             {

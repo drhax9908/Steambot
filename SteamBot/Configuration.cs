@@ -135,11 +135,12 @@ namespace SteamBot
         /// <summary>
         /// Gets or sets a value indicating the host of the database.
         /// </summary>
-        /// <value>
-        /// <c>true</c> to make the bots start on program load; otherwise,
-        /// <c>false</c> to not start them.
-        /// </value>
         public string DatabaseHost { get; set; }
+
+        /// <summary>
+        /// Gets or sets the database port
+        /// </summary>
+        public string DatabasePort { get; set; }
 
         /// <summary>
         /// Gets or sets a value indicating the username of the database.
