@@ -81,8 +81,17 @@ namespace SteamTrade
                 }
             }
 
-            // Get the response
-            return request.GetResponse() as HttpWebResponse;
+            try
+            {
+                // Get the response
+                return request.GetResponse() as HttpWebResponse;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error while fetching URL :");
+                Console.WriteLine(e);
+                return null;
+            }
         }
 
         /// <summary>
