@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace ExempleBot
 {
     public class Database
@@ -15,17 +16,17 @@ namespace ExempleBot
         {
             get
             {
-                if(connection != null)
+                if (connection != null)
                     return connection.State == ConnectionState.Open;
                 return false;
             }
         }
 
-        public Database(string server, string username, string password, string port = "1433", string database = "")
+        public Database(string server, string username, string password, string port, string database)
         {
             string connetionString = null;
-            if(database.Length > 0)
-                connetionString = "Server=" + server + ";"+"Port="+ port +";Database=" + database + ";Uid=" + username + ";Pwd=" + password;
+            if (database.Length > 0)
+                connetionString = "Server=" + server + ";Port=" + port + ";Database=" + database + ";Uid=" + username + ";Pwd=" + password;
             else
                 connetionString = "Server=" + server + "Port=" + port + ";Uid=" + username + ";Pwd=" + password;
 
@@ -67,7 +68,7 @@ namespace ExempleBot
 
             request += " FROM " + table;
 
-            if(args != "")
+            if (args != "")
             {
                 request += " " + args;
             }
@@ -121,7 +122,7 @@ namespace ExempleBot
 
             for (int i = 0; i < rows.Length; i++)
             {
-                request += "`"+rows[i]+"`";
+                request += "`" + rows[i] + "`";
                 if (i != rows.Length - 1)
                     request += ", ";
             }

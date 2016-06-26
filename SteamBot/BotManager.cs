@@ -68,7 +68,7 @@ namespace SteamBot
             if (ConfigObject == null)
                 return false;
 
-            DB = new Database(ConfigObject.DatabaseHost, ConfigObject.DatabaseUserName, ConfigObject.DatabasePassword);
+            DB = new Database(ConfigObject.DatabaseHost, ConfigObject.DatabaseUserName, ConfigObject.DatabasePassword, ConfigObject.DatabasePort, ConfigObject.DatabaseName);
             InitialiseDatabase();
 
             useSeparateProcesses = ConfigObject.UseSeparateProcesses;

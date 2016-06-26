@@ -1,0 +1,6 @@
+C:\Users\daveisadick\steambot\Steambot\Bin\Debug\SteamBot.exe.config
+C:\Users\daveisadick\steambot\Steambot\SteamBot\obj\Debug\ExampleBot.csprojResolveAssemblyReference.cache
+C:\Users\daveisadick\steambot\Steambot\Bin\Debug\SteamBot.exe
+C:\Users\daveisadick\steambot\Steambot\Bin\Debug\SteamBot.pdb
+C:\Users\daveisadick\steambot\Steambot\SteamBot\obj\Debug\SteamBot.exe
+C:\Users\daveisadick\steambot\Steambot\SteamBot\obj\Debug\SteamBot.pdb

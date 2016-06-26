@@ -1,0 +1,12 @@
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\obj\Debug\SteamTrade.csprojResolveAssemblyReference.cache
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\bin\Debug\SteamTrade.dll
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\bin\Debug\SteamTrade.pdb
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\bin\Debug\protobuf-net.dll
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\bin\Debug\SteamKit2.dll
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\bin\Debug\Newtonsoft.Json.xml
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\bin\Debug\protobuf-net.pdb
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\bin\Debug\protobuf-net.xml
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\bin\Debug\SteamKit2.xml
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\obj\Debug\SteamTrade.dll
+C:\Users\daveisadick\steambot\Steambot\SteamTrade\obj\Debug\SteamTrade.pdb

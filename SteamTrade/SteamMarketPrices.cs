@@ -26,7 +26,7 @@ namespace SteamTrade
                 case 730: Console.WriteLine("Scanning CS:GO Steam market..."); break;
                 default: Console.WriteLine("Scanning Steam market for game id "+appID+"..."); break;
             }
-            string response = steamWeb.Fetch("http://backpack.tf/api/IGetMarketPrices/v1/?key=" + backpackAPIKey + "&appid=" + appID, "POST");
+            string response = steamWeb.Fetch("http://backpack.tf/api/IGetMarketPrices/v1/?key=" + backpackAPIKey + "&appid=" + appID, "GET");
             RootObject tmpData = Parse(response);
             if (tmpData.response.success == 0)
             {

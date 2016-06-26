@@ -1,0 +1,6 @@
+C:\Users\daveisadick\steambot\Steambot\SteamAuth\bin\Debug\SteamAuth.dll
+C:\Users\daveisadick\steambot\Steambot\SteamAuth\bin\Debug\SteamAuth.pdb
+C:\Users\daveisadick\steambot\Steambot\SteamAuth\bin\Debug\Newtonsoft.Json.dll
+C:\Users\daveisadick\steambot\Steambot\SteamAuth\obj\Debug\SteamAuth.dll
+C:\Users\daveisadick\steambot\Steambot\SteamAuth\obj\Debug\SteamAuth.pdb
+C:\Users\daveisadick\steambot\Steambot\SteamAuth\obj\Debug\SteamAuth.csprojResolveAssemblyReference.cache
